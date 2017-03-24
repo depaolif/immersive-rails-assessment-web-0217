@@ -1,0 +1,5 @@
+<%= form_for [@guest, @appearance] do |f| %>
+  Episode Number: <%= f.number_field :episode %><br>
+  Rating: <%= f.number_field :rating %><br>
+  <%= f.submit %>
+<% end %>
